@@ -17,6 +17,8 @@ Two ways to get the code:
 > 4. Open `main.html` to get redirected to the home page.
 
 Or:
-    
-> 1. Download the code as zip
-> 2. Extract the zip file
+
+> 1. Click on `CODE`
+> 2. Click on `DOWNLOAD ZIP`
+> 3. Extract the zip file
+> 4. Open `main.html` to get redirected to the home page.
