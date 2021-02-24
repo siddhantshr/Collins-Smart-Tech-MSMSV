@@ -52,33 +52,12 @@
                 </div>
             </div>
         </div>
-
         <div class="controls">
             <img src="../assets/arrow.png" id="upBtn">
-            <h3>Features</h3>
+            <h3>About BMI</h3>
             <img src="../assets/arrow.png" id="downBtn">
         </div>
     </div>
-
-    <script>
-        var circle = document.getElementById("circle");
-        var upBtn = document.getElementById("upBtn");
-        var downBtn = document.getElementById("downBtn");
-
-        var rotateValue = circle.style.transform;
-        var rotateSum;
-
-        upBtn.onclick = function() {
-            rotateSum = rotateValue + "rotate(-90deg)";
-            circle.style.transform = rotateSum;
-            rotateValue = rotateSum;
-        }
-
-        downBtn.onclick = function() {
-            rotateSum = rotateValue + "rotate(90deg)";
-            circle.style.transform = rotateSum;
-            rotateValue = rotateSum;
-        }
-    </script>
+    <script src="../data/script-home.js" type="text/javascript"></script>
 </body>
 </html>
