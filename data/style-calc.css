@@ -1,4 +1,52 @@
-body{
+.container {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.row {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #ff6b6b, #5f27cd);
+}
+
+nav {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex-basis: 20;
+}
+
+.logo img {
+    text-align: left;
+    width: 200px;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.body1{
     margin: 0;
     padding: 0;
     text-align: center;
@@ -6,7 +54,7 @@ body{
     background-image: linear-gradient(120deg,#ff6b6b, #5f27cd);
     min-height: 100vh;
 }
-div{
+.div1{
     width: 500px;
     position: absolute;
     top: 50%;

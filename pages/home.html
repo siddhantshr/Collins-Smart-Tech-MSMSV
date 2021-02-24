@@ -12,57 +12,73 @@
             </div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">CALCULATE BMI</a></li>
+                    <li><a href="../pages/home.html">HOME</a></li>
+                    <li><a href="../pages/calculator.html">CALCULATE BMI</a></li>
+                    <li><a href="../pages/info.html">INFO</a></li>
                 </ul>
             </div>
         </nav>
         <div class="information">
+            <div class="overlay"></div>
+            <img src="../assets/display-img.png" class="mobile">
             <div id="circle">
                 <div class="feature one">
                     <img src="../assets/health-logo.png">
                     <div>
-                        <h1>BMI</h1>
-                        <p>
-                            The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy.
-                            The BMI calculation divides an adult's weight in kilograms by their height in metres squared. 
-                            For example, A BMI of 25 means 25kg/m2.
-                        </p>
+                        <h3>What is BMI?</h3>
+                        <a href="info.html"> CLICK HERE</a>
                     </div>
                 </div>
                 <div class="feature two">
                     <img src="../assets/health-logo.png">
                     <div>
-                        <h1>BMI Ranges</h1>
-                        <p>
-                            For most adults, an ideal BMI is in the 18.5 to 24.9 range.
-                            For children and young people aged 2 to 18, the BMI calculation takes
-                            into account age and gender as well as height and weight.
-                        </p>
+                        <h3>BMI Ranges</h3>
+                        <a href="info.html"> CLICK HERE</a>
                     </div>
                 </div>
                 <div class="feature three">
                     <img src="../assets/health-logo.png">
                     <div>
-                        <h1>BMI in children</h1>
-                        <p>
-                            BMI is used differently for children. 
-                            It is calculated in the same way as for adults, but then compared to typical values for other children of the same age. 
-                        </p>
+                        <h3>BMI in children</h3>
+                        <a href="info.html"> CLICK HERE</a>
                     </div>
                 </div>
                 <div class="feature four">
                     <img src="../assets/health-logo.png">
                     <div>
-                        <h1></h1>
-                        <p>
-                            BMI takes into account natural variations in body shape, giving a healthy weight range for a particular height.
-                            Muscle is much denser than fat, so very muscular people, may be a healthy weight even though their BMI is classed as obese.
-                        </p>
+                        <h3>BMI Accuracy</h3>
+                        <a href="info.html"> CLICK HERE</a>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="controls">
+            <img src="../assets/arrow.png" id="upBtn">
+            <h3>Features</h3>
+            <img src="../assets/arrow.png" id="downBtn">
+        </div>
     </div>
+
+    <script>
+        var circle = document.getElementById("circle");
+        var upBtn = document.getElementById("upBtn");
+        var downBtn = document.getElementById("downBtn");
+
+        var rotateValue = circle.style.transform;
+        var rotateSum;
+
+        upBtn.onclick = function() {
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+
+        downBtn.onclick = function() {
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+    </script>
 </body>
 </html>
