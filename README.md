@@ -6,7 +6,7 @@ Copyright (c) AHiddenDonut 2021
 GNU GPL-3.0 License
 
 ### Contributers
-[**<ins>AHiddenDonut</ins>**](https://github.com/AHiddenDonut/) `Siddhant Sharma` <br/>
+[**<ins>AHiddenDonut</ins>**](https://github.com/AHiddenDonut/) **`Siddhant Sharma`** <br/>
 
 [_roboshivam1_](https://github.com/roboshivam1) _Shivam Kapoor_ <br/>
 
