@@ -6,7 +6,9 @@ Copyright (c) AHiddenDonut 2021
 GNU GPL-3.0 License
 
 ### Contributers
-[roboshivam1](https://github.com/roboshivam1), [Abhimanyu-Mehta](https://github.com/Abhimanyu-Mehta)
+[**<ins>AHiddenDonut</ins>**](https://github.com/AHiddenDonut/) `Siddhant Sharma`
+[roboshivam1](https://github.com/roboshivam1) `Shivam Kapoor` 
+[Abhimanyu-Mehta](https://github.com/Abhimanyu-Mehta) `Abhimanyu Mehta`
 
 ### Get & Run the code
 Two ways to get the code:
